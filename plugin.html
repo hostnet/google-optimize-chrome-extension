@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/photon.css">
+    <link rel="stylesheet" href="css/plugin.css">
+</head>
+<body>
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <h1 class="title">Google Optimize&trade; Flow Switcher</h1>
+        </header>
+        <div class="window-content">
+            <table class="table-striped">
+                <thead>
+                <tr>
+                    <th>Alias</th>
+                    <th>Experiment ID</th>
+                    <th>Expiry</th>
+                    <th>Flow ID</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody id="experiments"></tbody>
+            </table>
+        </div>
+        <footer class="toolbar toolbar-footer" style="position: relative; text-align: right;">
+            <span class="copyright-footer">Powered by <a href="https://www.hostnet.nl/">Hostnet</a></span>
+            <span class="btn-group" style="margin: 5px;">
+                <button class="btn btn-mini btn-default" id="reload-button" title="Reload data from cookie"><i class="icon icon-retweet"></i></button>
+                <button class="btn btn-mini btn-default" id="save-button" title="Apply changes & refresh the current page">Apply &amp; Reload</button>
+            </span>
+        </footer>
+    </div>
+    <script src="plugin.js"></script>
+</body>
+</html>
